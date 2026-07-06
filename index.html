@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>e편한세상 분당 퍼스트빌리지 옵션 계산기</title>
+  <meta name="description" content="e편한세상 분당 퍼스트빌리지 옵션 선택 금액 자동 계산기" />
+  <meta property="og:title" content="e편한세상 분당 퍼스트빌리지 옵션 계산기" />
+  <meta property="og:description" content="주택형별 옵션을 선택하고 총액을 자동 계산하세요." />
+  <meta name="theme-color" content="#12312b" />
+  <link rel="stylesheet" href="./styles.css?v=20260706" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow">입주예정자 편의용</p>
+      <h1>e편한세상 분당 퍼스트빌리지<br />옵션 계산기</h1>
+      <p class="hero__copy">
+        주택형을 선택한 뒤 옵션을 체크하면 예상 선택금액이 자동으로 합산됩니다.
+        계산 결과는 참고용이며, 실제 계약 전에는 반드시 공식 공고문과 계약서를 확인해 주세요.
+      </p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="toolbar" aria-label="옵션 검색 및 필터">
+      <div class="field">
+        <label for="typeSelect">주택형</label>
+        <select id="typeSelect" aria-label="주택형 선택"></select>
+      </div>
+
+      <div class="field field--wide">
+        <label for="searchInput">옵션 검색</label>
+        <input id="searchInput" type="search" placeholder="예: 에어컨, 냉장고, 붙박이장" autocomplete="off" />
+      </div>
+
+      <div class="field">
+        <label for="categoryFilter">구분</label>
+        <select id="categoryFilter" aria-label="옵션 구분 필터">
+          <option value="">전체</option>
+        </select>
+      </div>
+
+      <label class="toggle">
+        <input id="hideUnavailable" type="checkbox" checked />
+        <span>선택 불가 옵션 숨기기</span>
+      </label>
+    </section>
+
+    <section class="notice" role="note">
+      <strong>안내</strong>
+      <span>‘택1’ 항목은 하나를 선택하면 같은 그룹의 기존 선택이 자동 해제됩니다. 조건부 옵션은 우측 점검사항에서 확인할 수 있습니다.</span>
+    </section>
+
+    <section class="data-note" aria-label="데이터 기준 및 주의사항">
+      <span id="dataVersion">데이터 기준 확인 중</span>
+      <span>실제 계약 전 공식 공고문과 계약서를 최종 기준으로 확인해 주세요.</span>
+    </section>
+
+    <div class="content">
+      <section class="option-area">
+        <div class="option-area__head">
+          <div>
+            <h2>옵션 선택</h2>
+            <p id="resultCount">0개 옵션 표시 중</p>
+          </div>
+          <div class="mini-actions">
+            <button id="expandAllBtn" type="button" class="button button--ghost">전체 펼치기</button>
+            <button id="collapseAllBtn" type="button" class="button button--ghost">전체 접기</button>
+          </div>
+        </div>
+        <div id="optionList" class="option-list" aria-live="polite"></div>
+      </section>
+
+      <aside class="summary" aria-label="선택 요약">
+        <div class="summary__card summary__total">
+          <p class="summary__label">총 선택금액</p>
+          <strong id="totalAmount">0원</strong>
+          <span id="selectedCount">선택 0개</span>
+        </div>
+
+        <div class="summary__card">
+          <h3>구분별 합계</h3>
+          <div id="categoryTotals" class="subtotal-list"></div>
+        </div>
+
+        <div class="summary__card" id="warningCard">
+          <h3>점검사항</h3>
+          <div id="warnings" class="warning-list"></div>
+        </div>
+
+        <div class="summary__card">
+          <h3>선택 내역</h3>
+          <div id="selectedList" class="selected-list"></div>
+        </div>
+
+        <div class="summary__actions">
+          <button id="copySummaryBtn" type="button" class="button">선택내역 복사</button>
+          <button id="shareLinkBtn" type="button" class="button button--secondary">공유 링크 복사</button>
+          <button id="downloadCsvBtn" type="button" class="button button--secondary">CSV 다운로드</button>
+          <button id="printBtn" type="button" class="button button--secondary">인쇄 / PDF 저장</button>
+          <button id="resetBtn" type="button" class="button button--danger">선택 초기화</button>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <div class="mobile-total" aria-label="모바일 선택 요약">
+    <div>
+      <span>총 선택금액</span>
+      <strong id="mobileTotalAmount">0원</strong>
+    </div>
+    <button id="mobileSummaryBtn" type="button" class="button button--secondary">내역 보기</button>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="./option-data.js?v=20260706"></script>
+  <script src="./app.js?v=20260706"></script>
+</body>
+</html>
