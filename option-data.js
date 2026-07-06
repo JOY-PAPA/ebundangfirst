@@ -1,6 +1,6 @@
 window.OPTION_DATA = {
   "projectName": "e편한세상 분당 퍼스트빌리지 옵션 계산기",
-  "dataVersion": "정정공고 옵션표 기반",
+  "dataVersion": "엑셀 옵션DB 시트 기준",
   "houseTypes": [
     "51A",
     "55A",
@@ -11,7 +11,7 @@ window.OPTION_DATA = {
   "options": [
     {
       "id": 1,
-      "category": "천장형 시스템 에어컨",
+      "category": "천장형 시스템 에어컨(전체타입)",
       "item": "천장형 시스템 에어컨",
       "configuration": "일반형: 거실+침실1 / 실내기 2대",
       "manufacturer": "LG/삼성",
@@ -21,13 +21,15 @@ window.OPTION_DATA = {
         "55A": 3600000,
         "55B": 3600000,
         "59A": 3800000,
-        "59T": null
+        "59T": 3800000
       },
-      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내"
+      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 2
     },
     {
       "id": 2,
-      "category": "천장형 시스템 에어컨",
+      "category": "천장형 시스템 에어컨(51/55타입)",
       "item": "천장형 시스템 에어컨",
       "configuration": "일반형: 거실+침실1+침실2 / 실내기 3대",
       "manufacturer": "LG/삼성",
@@ -39,11 +41,13 @@ window.OPTION_DATA = {
         "59A": null,
         "59T": null
       },
-      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내"
+      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 3
     },
     {
       "id": 3,
-      "category": "천장형 시스템 에어컨",
+      "category": "천장형 시스템 에어컨(55타입)",
       "item": "천장형 시스템 에어컨",
       "configuration": "일반형: 거실+침실1+침실2+알파룸 / 실내기 4대",
       "manufacturer": "LG/삼성",
@@ -55,11 +59,13 @@ window.OPTION_DATA = {
         "59A": null,
         "59T": null
       },
-      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내"
+      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 4
     },
     {
       "id": 4,
-      "category": "천장형 시스템 에어컨",
+      "category": "천장형 시스템 에어컨(59타입)",
       "item": "천장형 시스템 에어컨",
       "configuration": "일반형: 거실+침실1+침실2+침실3 / 실내기 4대",
       "manufacturer": "LG/삼성",
@@ -69,13 +75,15 @@ window.OPTION_DATA = {
         "55A": null,
         "55B": null,
         "59A": 6800000,
-        "59T": null
+        "59T": 6800000
       },
-      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내"
+      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 5
     },
     {
       "id": 5,
-      "category": "천장형 시스템 에어컨",
+      "category": "천장형 시스템 에어컨(전체타입)",
       "item": "천장형 시스템 에어컨",
       "configuration": "프리미엄형: 거실+침실1 / 실내기 2대",
       "manufacturer": "LG",
@@ -84,14 +92,16 @@ window.OPTION_DATA = {
         "51A": 4000000,
         "55A": 4000000,
         "55B": 4000000,
-        "59A": null,
+        "59A": 4200000,
         "59T": 4200000
       },
-      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내"
+      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 6
     },
     {
       "id": 6,
-      "category": "천장형 시스템 에어컨",
+      "category": "천장형 시스템 에어컨(51/55타입)",
       "item": "천장형 시스템 에어컨",
       "configuration": "프리미엄형: 거실+침실1+침실2 / 실내기 3대",
       "manufacturer": "LG",
@@ -103,11 +113,13 @@ window.OPTION_DATA = {
         "59A": null,
         "59T": null
       },
-      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내"
+      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 7
     },
     {
       "id": 7,
-      "category": "천장형 시스템 에어컨",
+      "category": "천장형 시스템 에어컨(55타입)",
       "item": "천장형 시스템 에어컨",
       "configuration": "프리미엄형: 거실+침실1+침실2+알파룸 / 실내기 4대",
       "manufacturer": "LG",
@@ -119,11 +131,13 @@ window.OPTION_DATA = {
         "59A": null,
         "59T": null
       },
-      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내"
+      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 8
     },
     {
       "id": 8,
-      "category": "천장형 시스템 에어컨",
+      "category": "천장형 시스템 에어컨(59타입)",
       "item": "천장형 시스템 에어컨",
       "configuration": "프리미엄형: 거실+침실1+침실2+침실3 / 실내기 4대",
       "manufacturer": "LG",
@@ -132,10 +146,12 @@ window.OPTION_DATA = {
         "51A": null,
         "55A": null,
         "55B": null,
-        "59A": null,
+        "59A": 7600000,
         "59T": 7600000
       },
-      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내"
+      "note": "※ 홈네트워크 연결기능 포함, 와이파이 기능 장착\n※ 제품모델은 실별로 상이하고 표기량이 많아 판매 시 별도 안내",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 9
     },
     {
       "id": 9,
@@ -151,7 +167,9 @@ window.OPTION_DATA = {
         "59A": 1500000,
         "59T": null
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 10
     },
     {
       "id": 10,
@@ -167,7 +185,9 @@ window.OPTION_DATA = {
         "59A": null,
         "59T": 1900000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 11
     },
     {
       "id": 11,
@@ -183,7 +203,9 @@ window.OPTION_DATA = {
         "59A": 1940000,
         "59T": 1770000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 12
     },
     {
       "id": 12,
@@ -199,7 +221,9 @@ window.OPTION_DATA = {
         "59A": 1340000,
         "59T": 1340000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 13
     },
     {
       "id": 13,
@@ -215,7 +239,9 @@ window.OPTION_DATA = {
         "59A": 510000,
         "59T": 510000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 14
     },
     {
       "id": 14,
@@ -231,7 +257,9 @@ window.OPTION_DATA = {
         "59A": 1260000,
         "59T": 1410000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 15
     },
     {
       "id": 15,
@@ -247,7 +275,9 @@ window.OPTION_DATA = {
         "59A": null,
         "59T": null
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 16
     },
     {
       "id": 16,
@@ -263,7 +293,9 @@ window.OPTION_DATA = {
         "59A": 1350000,
         "59T": 1350000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 17
     },
     {
       "id": 17,
@@ -279,7 +311,9 @@ window.OPTION_DATA = {
         "59A": 5400000,
         "59T": 5400000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 18
     },
     {
       "id": 18,
@@ -295,7 +329,9 @@ window.OPTION_DATA = {
         "59A": 1300000,
         "59T": 1300000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 19
     },
     {
       "id": 19,
@@ -311,7 +347,9 @@ window.OPTION_DATA = {
         "59A": 830000,
         "59T": 830000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 20
     },
     {
       "id": 20,
@@ -327,7 +365,9 @@ window.OPTION_DATA = {
         "59A": 800000,
         "59T": 780000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 21
     },
     {
       "id": 21,
@@ -343,7 +383,9 @@ window.OPTION_DATA = {
         "59A": 1200000,
         "59T": 1200000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 22
     },
     {
       "id": 22,
@@ -359,7 +401,9 @@ window.OPTION_DATA = {
         "59A": 3930000,
         "59T": 3300000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 23
     },
     {
       "id": 23,
@@ -375,7 +419,9 @@ window.OPTION_DATA = {
         "59A": 1270000,
         "59T": 1270000
       },
-      "note": "※ 55B타입의 경우 아일랜드장 선택 시 건식벽체 포함"
+      "note": "※ 55B타입의 경우 아일랜드장 선택 시 건식벽체 포함",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 24
     },
     {
       "id": 24,
@@ -391,7 +437,9 @@ window.OPTION_DATA = {
         "59A": 1410000,
         "59T": 1410000
       },
-      "note": "※ 55B타입의 경우 아일랜드장 선택 시 건식벽체 포함"
+      "note": "※ 55B타입의 경우 아일랜드장 선택 시 건식벽체 포함",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 25
     },
     {
       "id": 25,
@@ -407,7 +455,9 @@ window.OPTION_DATA = {
         "59A": null,
         "59T": null
       },
-      "note": "※ 55B타입 전용"
+      "note": "※ 55B타입 전용",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 26
     },
     {
       "id": 26,
@@ -423,7 +473,9 @@ window.OPTION_DATA = {
         "59A": null,
         "59T": null
       },
-      "note": "※ 55B타입 전용"
+      "note": "※ 55B타입 전용",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 27
     },
     {
       "id": 27,
@@ -439,7 +491,9 @@ window.OPTION_DATA = {
         "59A": 2370000,
         "59T": 2370000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 28
     },
     {
       "id": 28,
@@ -455,7 +509,9 @@ window.OPTION_DATA = {
         "59A": 2020000,
         "59T": 2020000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 29
     },
     {
       "id": 29,
@@ -471,7 +527,9 @@ window.OPTION_DATA = {
         "59A": 3400000,
         "59T": 2960000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 30
     },
     {
       "id": 30,
@@ -487,7 +545,9 @@ window.OPTION_DATA = {
         "59A": 1240000,
         "59T": null
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 31
     },
     {
       "id": 31,
@@ -503,7 +563,9 @@ window.OPTION_DATA = {
         "59A": 3620000,
         "59T": null
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 32
     },
     {
       "id": 32,
@@ -519,7 +581,9 @@ window.OPTION_DATA = {
         "59A": 1240000,
         "59T": 1240000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 33
     },
     {
       "id": 33,
@@ -535,7 +599,9 @@ window.OPTION_DATA = {
         "59A": 3620000,
         "59T": 3620000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 34
     },
     {
       "id": 34,
@@ -551,7 +617,9 @@ window.OPTION_DATA = {
         "59A": 4420000,
         "59T": 4350000
       },
-      "note": "※ 타입별 욕실·침실 갯수에 맞춰 적용"
+      "note": "※ 타입별 욕실·침실 갯수에 맞춰 적용",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 35
     },
     {
       "id": 35,
@@ -567,7 +635,9 @@ window.OPTION_DATA = {
         "59A": 4980000,
         "59T": 4980000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 36
     },
     {
       "id": 36,
@@ -583,7 +653,9 @@ window.OPTION_DATA = {
         "59A": 4830000,
         "59T": 4830000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 37
     },
     {
       "id": 37,
@@ -599,7 +671,9 @@ window.OPTION_DATA = {
         "59A": 1500000,
         "59T": 1500000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 38
     },
     {
       "id": 38,
@@ -615,7 +689,9 @@ window.OPTION_DATA = {
         "59A": 1800000,
         "59T": 1800000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 39
     },
     {
       "id": 39,
@@ -631,7 +707,9 @@ window.OPTION_DATA = {
         "59A": 780000,
         "59T": 780000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 40
     },
     {
       "id": 40,
@@ -647,7 +725,9 @@ window.OPTION_DATA = {
         "59A": 1650000,
         "59T": 1650000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 41
     },
     {
       "id": 41,
@@ -663,7 +743,9 @@ window.OPTION_DATA = {
         "59A": 580000,
         "59T": 580000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 42
     },
     {
       "id": 42,
@@ -679,7 +761,9 @@ window.OPTION_DATA = {
         "59A": 950000,
         "59T": 950000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 43
     },
     {
       "id": 43,
@@ -695,7 +779,9 @@ window.OPTION_DATA = {
         "59A": 1000000,
         "59T": 1000000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 44
     },
     {
       "id": 44,
@@ -711,7 +797,9 @@ window.OPTION_DATA = {
         "59A": 1800000,
         "59T": 1800000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 45
     },
     {
       "id": 45,
@@ -727,7 +815,9 @@ window.OPTION_DATA = {
         "59A": 650000,
         "59T": 650000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 46
     },
     {
       "id": 46,
@@ -743,7 +833,9 @@ window.OPTION_DATA = {
         "59A": 900000,
         "59T": 900000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 47
     },
     {
       "id": 47,
@@ -759,7 +851,9 @@ window.OPTION_DATA = {
         "59A": 480000,
         "59T": 480000
       },
-      "note": ""
+      "note": "",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 48
     },
     {
       "id": 48,
@@ -775,7 +869,9 @@ window.OPTION_DATA = {
         "59A": 6430000,
         "59T": 6430000
       },
-      "note": "※ 구성 및 세부사양(디자인, 위치, 색상 등)은 변경 불가\n※ 판매가에는 가전맞춤형 냉장고장 설치비용 포함\n※ 주택형 및 가전모델에 따라 상세 스펙 상이"
+      "note": "※ 구성 및 세부사양(디자인, 위치, 색상 등)은 변경 불가\n※ 판매가에는 가전맞춤형 냉장고장 설치비용 포함\n※ 주택형 및 가전모델에 따라 상세 스펙 상이",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 49
     },
     {
       "id": 49,
@@ -791,7 +887,9 @@ window.OPTION_DATA = {
         "59A": 7550000,
         "59T": 7550000
       },
-      "note": "※ 구성 및 세부사양(디자인, 위치, 색상 등)은 변경 불가\n※ 판매가에는 가전맞춤형 냉장고장 설치비용 포함\n※ 주택형 및 가전모델에 따라 상세 스펙 상이"
+      "note": "※ 구성 및 세부사양(디자인, 위치, 색상 등)은 변경 불가\n※ 판매가에는 가전맞춤형 냉장고장 설치비용 포함\n※ 주택형 및 가전모델에 따라 상세 스펙 상이",
+      "sourceSheet": "옵션DB",
+      "sourceRow": 50
     }
   ]
 };
