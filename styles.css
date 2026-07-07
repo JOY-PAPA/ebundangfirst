@@ -65,8 +65,8 @@ button {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(255, 247, 240, 0.98) 0%, rgba(255, 247, 240, 0.9) 36%, rgba(255, 247, 240, 0.5) 76%, rgba(255, 247, 240, 0.86) 100%),
-    url("./assets/bg_visual_pc.png") right -120px center / 790px auto no-repeat;
+    linear-gradient(90deg, rgba(255, 247, 240, 0.98) 0%, rgba(255, 247, 240, 0.92) 34%, rgba(255, 247, 240, 0.58) 68%, rgba(255, 247, 240, 0.88) 100%),
+    url("./assets/bg_visual_pc.png") center 38% / clamp(980px, 74vw, 1240px) auto no-repeat;
 }
 
 .app-header > * {
