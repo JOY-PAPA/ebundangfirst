@@ -9,7 +9,8 @@
 - `app.js`: 선택, 합계, 필터, 공유, CSV, 인쇄 로직
 - `analytics.js`: GoatCounter 방문 통계 연결
 - `option-data.js`: 엑셀 `옵션DB`에서 추출한 옵션 데이터
-- `assets/bg_visual_pc.png`: 헤더 배경 디자인 이미지
+- `assets/brand-symbol.svg`: 헤더 로고·파비콘 (입주 가이드와 같은 심볼)
+- `assets/bg_visual_pc.png`, `assets/brand-symbol.png`: 이전 디자인 이미지 (현재 화면에서는 쓰지 않음)
 - `.nojekyll`: GitHub Pages 정적 배포용 파일
 
 ## 로컬 확인

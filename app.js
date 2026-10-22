@@ -252,7 +252,7 @@
     const hasCondition = getConditionLines(option).length > 0;
 
     return `
-      <article class="option-row ${checked ? "is-selected" : ""} ${unavailable ? "is-unavailable" : ""}">
+      <label class="option-row ${checked ? "is-selected" : ""} ${unavailable ? "is-unavailable" : ""}">
         <input
           class="option-check"
           type="checkbox"
@@ -272,7 +272,7 @@
           ${option.note ? `<p class="option-note">${escapeHtml(option.note)}</p>` : ""}
         </div>
         <div class="option-price">${unavailable ? "해당 없음" : formatCurrency(price)}</div>
-      </article>
+      </label>
     `;
   }
 
